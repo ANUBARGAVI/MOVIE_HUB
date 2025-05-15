@@ -3,8 +3,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-import Cards from "../components/Cards";
-import Navscroll from "../components/Navscroll";
+import Cards from "../Components/Cards";
+import Navscroll from "../Components/Navscroll";
 
 export default function MovieList() {
   const [movies, setMovies] = useState([]);
